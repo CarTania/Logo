@@ -8,6 +8,7 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.*;
 import javafx.stage.FileChooser;
@@ -101,6 +102,7 @@ public class App extends Application {
 
         primaryStage.setTitle("Logo");
         primaryStage.setResizable(false);
+        primaryStage.getIcons().add(new Image("icon.png"));
 
         area = new Area();
 
