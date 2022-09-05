@@ -16,6 +16,10 @@ public class Spezzata {
     private Point estremo1;
     private Point estremo2;
 
+    
+    /** 
+     * @return ArrayList<Linea>
+     */
     public ArrayList<Linea> getLinee() {
         return linee;
     }
@@ -30,18 +34,34 @@ public class Spezzata {
         return linee.get(index);
     }
 
+    
+    /** 
+     * @return Point
+     */
     public Point getEstremo1() {
         return estremo1;
     }
 
+    
+    /** 
+     * @return Point
+     */
     public Point getEstremo2() {
         return estremo2;
     }
 
+    
+    /** 
+     * @param estremo1
+     */
     public void setEstremo1(Point estremo1) {
         this.estremo1 = estremo1;
     }
 
+    
+    /** 
+     * @param estremo2
+     */
     public void setEstremo2(Point estremo2) {
         this.estremo2 = estremo2;
     }
@@ -132,6 +152,10 @@ public class Spezzata {
         estremo2 = linea.getEstremo2();
     }
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return "Spezzata [estremo1=" + estremo1.toString() + ", estremo2=" + estremo2.toString() + ", linee=" + linee

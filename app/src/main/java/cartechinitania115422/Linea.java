@@ -15,19 +15,35 @@ public class Linea implements Comparable<Linea>{
     private double spessore;
     private Color colore;
 
+    
+    /** 
+     * @return Point
+     */
     public Point getEstremo1() {
         return estremo1;
     }
 
+    
+    /** 
+     * @return Point
+     */
     public Point getEstremo2() {
         return estremo2;
     }
 
+    
+    /** 
+     * @return double
+     */
     public double getSpessore() {
         return spessore;
     }
 
 
+    
+    /** 
+     * @return Color
+     */
     public Color getColore() {
         return colore;
     }

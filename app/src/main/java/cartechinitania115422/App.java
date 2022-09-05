@@ -25,6 +25,10 @@ public class App extends Application {
     private Pane root;
     private Area area;
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         launch(args);
     }

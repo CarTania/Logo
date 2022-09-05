@@ -29,6 +29,11 @@ public class Esecutore {
         this.area = area;
     }
 
+    
+    /** 
+     * @param riga
+     * @throws Exception
+     */
     public void esegui(String[] riga) throws Exception
     {
         int key = mappa.ricercaComando(riga[0]);

@@ -18,10 +18,18 @@ public class Poligono extends Spezzata {
 
     private Color colore;
 
+    
+    /** 
+     * @return Color
+     */
     public Color getColore() {
         return colore;
     }
 
+    
+    /** 
+     * @param colore
+     */
     public void setColore(Color colore) {
         this.colore = colore;
     }

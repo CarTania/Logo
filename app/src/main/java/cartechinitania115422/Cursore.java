@@ -28,64 +28,128 @@ public class Cursore extends Point {
     private int base; //Dimensioni dell'area di disegno (DEFAULT: 640x480)
     private int altezza;
 
+    
+    /** 
+     * @return Point
+     */
     public Point getHome() {
         return home;
     }
 
+    
+    /** 
+     * @param base
+     */
     public void setBase(int base) {
         this.base = base;
     }
 
+    
+    /** 
+     * @param altezza
+     */
     public void setAltezza(int altezza) {
         this.altezza = altezza;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getDirezione() {
         return direzione;
     }
 
+    
+    /** 
+     * @param direzione
+     */
     public void setDirezione(int direzione) {
         this.direzione = direzione;
     }
 
+    
+    /** 
+     * @return boolean
+     */
     public boolean isPlot() {
         return plot;
     }
 
+    
+    /** 
+     * @param plot
+     */
     public void setPlot(boolean plot) {
         this.plot = plot;
     }
 
+    
+    /** 
+     * @return Color
+     */
     public Color getColoreLinea() {
         return coloreLinea;
     }
 
+    
+    /** 
+     * @param coloreLinea
+     */
     public void setColoreLinea(Color coloreLinea) {
         this.coloreLinea = coloreLinea;
     }
 
+    
+    /** 
+     * @param r
+     * @param g
+     * @param b
+     */
     public void setColoreLinea(int r, int g, int b)
     {
         coloreLinea = new Color(r, g, b);
     }
 
+    
+    /** 
+     * @return Color
+     */
     public Color getColoreArea() {
         return coloreArea;
     }
 
+    
+    /** 
+     * @param coloreArea
+     */
     public void setColoreArea(Color coloreArea) {
         this.coloreArea = coloreArea;
     }
 
+    
+    /** 
+     * @param r
+     * @param g
+     * @param b
+     */
     public void setColoreArea(int r, int g, int b)
     {
         coloreArea = new Color(r, g, b);
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getPenSize() {
         return penSize;
     }
 
+    
+    /** 
+     * @param penSize
+     */
     public void setPenSize(int penSize) {
         this.penSize = penSize;
     }

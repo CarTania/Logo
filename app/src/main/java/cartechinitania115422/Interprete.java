@@ -14,10 +14,18 @@ public class Interprete {
     private Area area;
     private Esecutore esecutore;
 
+    
+    /** 
+     * @param area
+     */
     public void setArea(Area area) {
         this.area = area;
     }
 
+    
+    /** 
+     * @return Area
+     */
     public Area getArea() {
         return area;
     }

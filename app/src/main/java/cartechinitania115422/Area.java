@@ -16,10 +16,18 @@ public class Area implements IArea{
     private int altezza;
     private Cursore cursore;
 
+    
+    /** 
+     * @return Cursore
+     */
     public Cursore getCursore() {
         return cursore;
     }
 
+    
+    /** 
+     * @param cursore
+     */
     public void setCursore(Cursore cursore) {
         this.cursore = cursore;
     }
@@ -27,38 +35,76 @@ public class Area implements IArea{
     private ArrayList<Spezzata> spezzate;
     private ArrayList<Poligono> poligoni;
 
+    
+    /** 
+     * @return ArrayList<Spezzata>
+     */
     public ArrayList<Spezzata> getSpezzate() {
         return spezzate;
     }
 
+    
+    /** 
+     * @return ArrayList<Poligono>
+     */
     public ArrayList<Poligono> getPoligoni() {
         return poligoni;
     }
 
+    
+    /** 
+     * @return Color
+     */
     public Color getColoreSfondo() {
         return coloreSfondo;
     }
 
+    
+    /** 
+     * @param coloreSfondo
+     */
     public void setColoreSfondo(Color coloreSfondo) {
         this.coloreSfondo = coloreSfondo;
     }
 
+    
+    /** 
+     * @param r
+     * @param g
+     * @param b
+     */
     public void setColoreSfondo(int r, int g, int b) {
         this.coloreSfondo = new Color(r, g, b);
     }    
 
+    
+    /** 
+     * @return int
+     */
     public int getBase() {
         return base;
     }
 
+    
+    /** 
+     * @param base
+     */
     public void setBase(int base) {
         this.base = base;
     }
 
+    
+    /** 
+     * @return int
+     */
     public int getAltezza() {
         return altezza;
     }
 
+    
+    /** 
+     * @param altezza
+     */
     public void setAltezza(int altezza) {
         this.altezza = altezza;
     }
@@ -75,6 +121,11 @@ public class Area implements IArea{
         poligoni = new ArrayList<Poligono>();
     }
 
+    
+    /** 
+     * @param linea
+     * @return boolean
+     */
     //Controlla se una linea è già presente nell'area o meno all'interno di una spezzata o di un poligono
     public boolean isLinea(Linea linea)
     {   
@@ -154,6 +205,10 @@ public class Area implements IArea{
             addSpezzata(new Spezzata(linea));
     }
 
+    
+    /** 
+     * @param dist
+     */
     public void backward(int dist)
     {
         forward(-dist);

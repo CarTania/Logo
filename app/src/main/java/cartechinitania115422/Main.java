@@ -3,6 +3,10 @@ package cartechinitania115422;
 
 public class Main {
     
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args)
     { 
         Area area = new Area();

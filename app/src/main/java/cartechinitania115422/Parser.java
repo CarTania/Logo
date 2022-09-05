@@ -15,6 +15,10 @@ public class Parser {
 
     private List<String[]> righe;
 
+    
+    /** 
+     * @return List<String[]>
+     */
     public List<String[]> getRighe() {
         return righe;
     }
