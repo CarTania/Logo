@@ -1,5 +1,8 @@
 package cartechinitania115422;
 
+/**
+ * Interfaccia della classe Cursore.
+ */
 public interface ICursore {
 
     void forward();

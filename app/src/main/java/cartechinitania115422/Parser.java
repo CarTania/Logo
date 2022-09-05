@@ -51,7 +51,7 @@ public class Parser {
     {
         String riga = "";
         if (!new File(filePath).isAbsolute())
-        filePath= new File("").getAbsolutePath().concat("\\src\\main\\java\\cartechinitania115422\\"+ filePath);
+            filePath= new File("").getAbsolutePath().concat("\\app\\src\\main\\java\\cartechinitania115422\\"+ filePath);
         BufferedReader br = new BufferedReader(new FileReader(filePath));
         
         while ((riga = br.readLine()) != null) 

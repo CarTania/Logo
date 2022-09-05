@@ -21,7 +21,7 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
-            "mainClass": "Main",
+            "mainClass": "cartechinitania115422.Main"
         }
     ]
 }

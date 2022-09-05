@@ -2,6 +2,9 @@ package cartechinitania115422;
 
 import java.awt.Color;
 
+/**
+ * Interfaccia della classe Area.
+ */
 public interface IArea {
     
     void addSpezzata(Spezzata spezzataUnaLinea);
